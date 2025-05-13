@@ -1,5 +1,10 @@
 import React from 'react'
-import styles from "./style.module.scss";
+
+import { Eye,Check } from 'lucide-react';
+
+import {
+  Link,
+} from "react-router";
 
 const ProductSection = () => {
   return (
@@ -20,21 +25,25 @@ const ProductSection = () => {
               <button className='bg-[#000] text-[#fff] p-2 rounded-2xl'>%40</button>
               <button className='bg-[#fff] p-2 rounded-2xl'>4.3</button>
             </div>
-            <div className="boxImg relative">
-              <img
-                src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
-                alt=""
-                className="w-full"
-              />
-
-              <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <Link to={"/shop"}>
+              <div className="boxImg relative">
                 <img
-                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
                   alt=""
-                  className="w-full"
-                />
+                  className="w-full" />
+                <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <img
+                    src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                    alt=""
+                    className="w-full"
+                  />
+                  <div className='absolute top-[14px] flex flex-col gap-3  right-[14px]'>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Eye className=' w-[18px] ' /></p>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Check className='w-[18px]' /></p>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="boxBody bg-[#F5F5F5] p-9">
               <h2 className="font-semibold text-lg">Earphones</h2>
               <h3 className="text-gray-600 mb-3">Soundcore P30i True Wireless ANC Earbud</h3>
@@ -49,21 +58,25 @@ const ProductSection = () => {
               <button className='bg-[#000] text-[#fff] p-2 rounded-2xl'>%40</button>
               <button className='bg-[#fff] p-2 rounded-2xl'>4.3</button>
             </div>
-            <div className="boxImg relative">
-              <img
-                src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
-                alt=""
-                className="w-full"
-              />
-
-              <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <Link to={"/shop"}>
+              <div className="boxImg relative">
                 <img
-                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
                   alt=""
-                  className="w-full"
-                />
+                  className="w-full" />
+                <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <img
+                    src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                    alt=""
+                    className="w-full"
+                  />
+                  <div className='absolute top-[14px] flex flex-col gap-3  right-[14px]'>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Eye className=' w-[18px] ' /></p>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Check className='w-[18px]' /></p>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="boxBody bg-[#F5F5F5] p-9">
               <h2 className="font-semibold text-lg">Earphones</h2>
               <h3 className="text-gray-600 mb-3">Soundcore P30i True Wireless ANC Earbud</h3>
@@ -78,21 +91,25 @@ const ProductSection = () => {
               <button className='bg-[#000] text-[#fff] p-2 rounded-2xl'>%40</button>
               <button className='bg-[#fff] p-2 rounded-2xl'>4.3</button>
             </div>
-            <div className="boxImg relative">
-              <img
-                src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
-                alt=""
-                className="w-full"
-              />
-
-              <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <Link to={"/shop"}>
+              <div className="boxImg relative">
                 <img
-                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                  src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/01-45.jpg"
                   alt=""
-                  className="w-full"
-                />
+                  className="w-full" />
+                <div className="hoverImg absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <img
+                    src="https://klbtheme.com/fynode/wp-content/uploads/2024/12/02-40.jpg"
+                    alt=""
+                    className="w-full"
+                  />
+                  <div className='absolute top-[14px] flex flex-col gap-3  right-[14px]'>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Eye className=' w-[18px] ' /></p>
+                    <p className=' bg-white  p-[14px] rounded-[50%]'><Check className='w-[18px]' /></p>
+                  </div>
+                </div>
               </div>
-            </div>
+            </Link>
             <div className="boxBody bg-[#F5F5F5] p-9">
               <h2 className="font-semibold text-lg">Earphones</h2>
               <h3 className="text-gray-600 mb-3">Soundcore P30i True Wireless ANC Earbud</h3>
