@@ -2,8 +2,6 @@ import React from 'react'
 import {
   Search,
   CircleUserRound,
-  ChevronDown,
-
   Heart,
   RefreshCcw,
   ShoppingCart,
@@ -31,7 +29,9 @@ const Header = () => {
 
         <div className="flex items-center gap-5 text-xl text-gray-600">
           <Search />
-          <a href="" className='flex gap-[10px] font-inter'><CircleUserRound />account </a>
+          <a href="./account" className='flex gap-[10px] font-inter'><CircleUserRound />account </a>
+        
+
           <Heart />
           < RefreshCcw />
           <ShoppingCart />
